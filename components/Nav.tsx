@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 
 export default function Nav({ locale }: { locale: string }) {
@@ -11,7 +11,6 @@ export default function Nav({ locale }: { locale: string }) {
   const [open, setOpen]         = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const pathname                = usePathname()
-  const router                  = useRouter()
 
   const prefix = locale === 'en' ? '' : `/${locale}`
   const links = [
@@ -30,10 +29,8 @@ export default function Nav({ locale }: { locale: string }) {
 
   function switchLocale() {
     const next = locale === 'en' ? 'es' : 'en'
-    const withoutLocale = pathname
-      .replace(/^\/es/, '')
-      .replace(/^\/en/, '') || '/'
-    router.push(next === 'en' ? withoutLocale : `/es${withoutLocale}`)
+    const withoutLocale = pathname.replace(/^\/(es|en)/, '') || '/'
+    window.location.href = next === 'en' ? withoutLocale : `/es${withoutLocale}`
   }
 
   return (

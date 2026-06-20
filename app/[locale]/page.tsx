@@ -149,7 +149,6 @@ export default async function HomePage({
           <div className="grid md:grid-cols-3 gap-px bg-white/10">
             {(t.raw('forWhom.profiles') as any[]).map((p: any) => (
               <div key={p.tag} className="bg-basalto p-8 space-y-4">
-                <p className="text-[9px] tracking-[0.2em] uppercase text-arena">{p.tag}</p>
                 <h3 className="font-serif text-2xl leading-tight">{p.title}</h3>
                 <p className="text-white/50 text-sm leading-relaxed">{p.body}</p>
               </div>
