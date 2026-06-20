@@ -42,7 +42,8 @@ export default async function ExperienciasPage({
         <div className="pt-24 pb-20 border-b border-white/10">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-6">{t('eyebrow')}</p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight max-w-2xl">
-            {t('h1_1')}<br /><em>{t('h1_2')}<br />{t('h1_3')}</em>
+            {t('h1_1')}<br />
+            <em>{t('h1_2')} {t('h1_3')}</em>
           </h1>
           <p className="mt-6 text-white/50 max-w-lg leading-relaxed">{t('p')}</p>
         </div>
