@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Inicia una conversación con AdAntar. Hemos trabajado con los mejores equipos directivos. Si estás buscando algo más que una actividad de empresa, hablemos.',
 }
 
-export default function ContactoPage({
+export default async function ContactoPage({
   searchParams,
 }: {
-  searchParams: { experiencia?: string }
+  searchParams: Promise<{ experiencia?: string }>
 }) {
-  const experiencia = searchParams.experiencia
+  const { experiencia } = await searchParams
 
   return (
     <div className="pt-16 min-h-screen">
