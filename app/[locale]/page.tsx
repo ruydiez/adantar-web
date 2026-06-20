@@ -27,7 +27,7 @@ export default async function HomePage({
       <section className="relative min-h-screen flex flex-col justify-end">
         <div className="absolute inset-0">
           <Image src="/images/lanzarote-03.png" alt="Group at Lanzarote volcano at sunset" fill priority className="object-cover object-center" sizes="100vw" />
-          <div className="absolute inset-0 bg-gradient-to-t from-basalto via-basalto/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-basalto via-basalto/50 to-basalto/40" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12 pb-24">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-8">{t('hero.eyebrow')}</p>

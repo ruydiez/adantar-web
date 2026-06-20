@@ -44,7 +44,7 @@ export default async function SobreAdantarPage({
         <div className="px-6 lg:px-12 py-20 lg:py-28 flex flex-col justify-center">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-6">{t('name.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-8">
-            {t('name.h2_1')}<br /><em>{t('name.h2_2')}</em>
+            AdAntar.<br /><em>{t('name.h2_2')}</em>
           </h2>
           <div className="text-white/55 leading-relaxed space-y-5 max-w-lg">
             <p dangerouslySetInnerHTML={{ __html: t('name.p1') }} />
@@ -131,11 +131,16 @@ export default async function SobreAdantarPage({
           <div className="space-y-8">
             <p className="text-white/55 leading-relaxed">{t('model.p')}</p>
             <div className="grid grid-cols-3 gap-6 text-sm border-t border-white/10 pt-8">
-              {(t.raw('model.places') as any[]).map((t: any) => (
-                <div key={t.n}>
-                  <p className="text-[9px] tracking-widest uppercase text-arena mb-2">{t.n}</p>
-                  <p className="text-white font-medium mb-1">{t.place}</p>
-                  <p className="text-white/40 text-xs">{t.desc}</p>
+              {(t.raw('model.places') as any[]).map((place: any, i: number) => (
+                <div key={place.n} className={i > 0 ? 'opacity-35' : ''}>
+                  <p className="text-[9px] tracking-widest uppercase text-arena mb-2">{place.n}</p>
+                  <p className="text-white font-medium mb-1">{place.place}</p>
+                  <p className="text-white/40 text-xs">{place.desc}</p>
+                  {i > 0 && (
+                    <p className="text-[9px] tracking-widest uppercase text-white/30 mt-2">
+                      {locale === 'es' ? 'Próximamente' : 'Coming soon'}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>

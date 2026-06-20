@@ -35,7 +35,8 @@
       "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Stock Fotográfico/marc-antoine-dube-YtOfiFbWdBQ-unsplash.jpg\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/water-manifiesto.jpg\")",
       "Bash(npm install *)",
       "Bash(npx tsc *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Logo \\(PNG\\)/PNG/AdAntar_Simbolo_Blanco.png\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/logo-white.png\" && echo \"Logo copiado\")"
     ]
   }
 }
