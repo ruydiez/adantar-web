@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(/opt/homebrew/bin/node --version)",
+      "Bash(find /opt/homebrew /usr/local /Users/picnic/.nvm /Users/picnic/.volta -name \"node\" -type f 2>/dev/null | head -5; ls \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/\" 2>/dev/null || echo \"\\(directorio vacío o no existe\\)\")",
+      "Read(//Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/**)",
+      "Read(//Users/picnic/**)",
+      "Bash(ls \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/\" 2>/dev/null; echo \"---\"; ls /usr/local/bin/node 2>/dev/null || ls /opt/homebrew/bin/node 2>/dev/null; ls /Users/picnic/.nvm 2>/dev/null; ls /Users/picnic/.volta 2>/dev/null; ls /Users/picnic/.fnm 2>/dev/null; which node 2>/dev/null || echo \"node not in PATH\")",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(BASE=\"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web\" *)",
+      "Bash(mkdir -p \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/.claude\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(kill 58125)",
+      "Bash(mkdir -p /Users/picnic/.claude/projects/-Users-picnic-Desktop-ruy-diez-2026-03---AdAntar-06---Web/memory/)",
+      "Bash(brew install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(cp '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/05 — Materiales/Presentación Corporativa/Material/pexels-cotelo-19131137.jpg' '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/cycling-lanzarote.jpg')",
+      "Bash(cp '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/05 — Materiales/Presentación Corporativa/Material/pexels-runffwpu-5687554.jpg' '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/cycling-group.jpg')",
+      "Bash(cp '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/05 — Materiales/Presentación Corporativa/Material/pexels-runffwpu-5840726.jpg' '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/running.jpg')",
+      "Bash(cp '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Stock Fotográfico/cycling01.png' '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/cycling01.png')",
+      "Bash(cp '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Stock Fotográfico/basalto_01.png' '/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/basalto_01.png')",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(sort -k2)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
