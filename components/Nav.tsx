@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 
 const links = [
@@ -32,11 +33,15 @@ export default function Nav() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between">
-        <Link
-          href="/"
-          className="font-serif text-xl tracking-[0.18em] uppercase text-white"
-        >
-          AdAntar
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo-white.png"
+            alt="AdAntar"
+            width={140}
+            height={32}
+            className="h-7 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop */}

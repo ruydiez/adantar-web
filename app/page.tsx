@@ -38,11 +38,11 @@ export default async function HomePage() {
             Transformative. Transcending.
           </p>
           <h1 className="font-serif text-5xl md:text-7xl lg:text-[84px] leading-[0.95] tracking-tight max-w-3xl">
-            Lanzarote cambia
-            <br />a las personas.
+            Lo que buscas
+            <br />está adentro.
             <br />
-            <em>Nosotros diseñamos
-            <br />cuándo y cómo.</em>
+            <em>Al otro lado
+            <br />del esfuerzo.</em>
           </h1>
           <div className="mt-14">
             <Link
@@ -63,23 +63,20 @@ export default async function HomePage() {
             Quiénes somos
           </p>
           <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-8">
-            Para esas personas
-            <br />no había un lugar
-            <br />en Europa.
+            La selección definitiva
+            <br />de experiencias
             <br />
-            <em>Hasta ahora.</em>
+            <em>mind & body.</em>
           </h2>
           <div className="text-white/55 leading-relaxed space-y-4 max-w-lg">
             <p>
-              Hay personas que viajan para descubrirnos. Que elegimos el viento en
-              contra, la pendiente que duele, el frío que aclara. Que no entendemos
-              el ocio sin propósito, ni el lujo sin exigencia.
+              El lugar donde la hospitalidad de alto nivel y el entrenamiento
+              de élite se encuentran.
             </p>
             <p>
-              En AdAntar hemos visitado los sitios, entrenado con los mejores,
-              probado lo que vale y descartado lo que no. Hemos construido la
-              primera plataforma europea de performance integral: físico, mental y
-              organizacional.
+              Hay quienes viajamos para descubrirnos, para transformarnos, crecer
+              o evolucionar. Para todos nosotros no había una plataforma.
+              Hasta ahora.
             </p>
           </div>
           <div className="mt-10">
@@ -109,7 +106,7 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-20 pb-4">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-4">Lo que hacemos</p>
           <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-16">
-            Tres productos.
+            Tres tipos de experiencias.
             <br />
             <em>Un solo estándar.</em>
           </h2>
@@ -131,8 +128,7 @@ export default async function HomePage() {
             <div className="p-8 flex flex-col flex-1">
               <p className="text-[9px] tracking-[0.25em] uppercase text-arena mb-4">I</p>
               <h3 className="font-serif text-2xl leading-tight mb-4">
-                Experiencias
-                <br />Corporativas
+                Corporativas
               </h3>
               <p className="text-white/50 text-sm leading-relaxed flex-1 mb-6">
                 Para empresas que necesitan reunir, formar o transformar a sus equipos
@@ -169,8 +165,7 @@ export default async function HomePage() {
             <div className="p-8 flex flex-col flex-1">
               <p className="text-[9px] tracking-[0.25em] uppercase text-arena mb-4">II</p>
               <h3 className="font-serif text-2xl leading-tight mb-4">
-                Experiencias
-                <br />Mente y Cuerpo
+                Mente y Cuerpo
               </h3>
               <p className="text-white/50 text-sm leading-relaxed flex-1 mb-6">
                 Retiros donde el cuerpo y la mente se exigen a la vez. Para quien no
@@ -207,8 +202,7 @@ export default async function HomePage() {
             <div className="p-8 flex flex-col flex-1">
               <p className="text-[9px] tracking-[0.25em] uppercase text-arena mb-4">III</p>
               <h3 className="font-serif text-2xl leading-tight mb-4">
-                Experiencias
-                <br />Nicho
+                Nicho
               </h3>
               <p className="text-white/50 text-sm leading-relaxed flex-1 mb-6">
                 Deep dives temáticos para comunidades con criterio propio. Pequeño
@@ -345,10 +339,6 @@ export default async function HomePage() {
             <em>El único trabajo
             <br />que te queda es llegar.</em>
           </h2>
-          <p className="text-white/45 text-sm mb-12 max-w-sm mx-auto leading-relaxed">
-            Sin precios fijos. Sin formatos cerrados.
-            Habla con nosotros.
-          </p>
           <Link
             href="/contacto"
             className="inline-block text-[11px] tracking-widest uppercase border border-arena text-arena px-10 py-5 hover:bg-arena hover:text-basalto transition-all duration-300"

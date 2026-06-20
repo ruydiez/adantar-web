@@ -115,8 +115,8 @@ export default function SobreAdantarPage() {
       <section className="relative border-t border-white/10">
         <div className="absolute inset-0">
           <Image
-            src="/images/image5.jpeg"
-            alt="Textura natural"
+            src="/images/water-manifiesto.jpg"
+            alt="Agua oscura — AdAntar manifiesto"
             fill
             className="object-cover object-center"
             sizes="100vw"
@@ -206,43 +206,6 @@ export default function SobreAdantarPage() {
             Crear las condiciones para que las personas puedan llegar más lejos
             de lo que creían posible, a través de un esfuerzo transformador.
           </h2>
-        </div>
-      </section>
-
-      {/* ── Principios ── */}
-      <section className="border-t border-white/10 py-20 px-6 lg:px-12">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-12">Lo que no es negociable</p>
-          <div className="grid md:grid-cols-2 gap-px bg-white/10">
-            {[
-              {
-                n: 'I',
-                title: 'El retiro no vende la marca. El retiro es la marca.',
-                body: 'Cada experiencia es la promesa en acto, no su ilustración. El error sería tratarla como canal de marketing.',
-              },
-              {
-                n: 'II',
-                title: 'La exclusividad no viene del precio.',
-                body: 'Viene del estándar. De lo que se exige y de lo que se promete a cambio. Suavizar la propuesta para ampliar el embudo sería el mayor error estratégico.',
-              },
-              {
-                n: 'III',
-                title: 'La comunidad no se compra.',
-                body: 'Se construye por prescripción. El entrenador trae al entrenado. El atleta, al ejecutivo. Una comunidad genuina vale más que cualquier campaña de adquisición.',
-              },
-              {
-                n: 'IV',
-                title: 'El destino no es un escenario.',
-                body: 'Es el argumento. El entorno condiciona lo que la persona es capaz de hacer y de pensar. Elegir bien el lugar no es logístico: es estratégico.',
-              },
-            ].map((p) => (
-              <div key={p.n} className="bg-basalto p-8 space-y-3">
-                <p className="text-[9px] tracking-widest uppercase text-arena">{p.n}</p>
-                <h3 className="font-serif text-xl leading-tight">{p.title}</h3>
-                <p className="text-white/50 text-sm leading-relaxed">{p.body}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

@@ -23,22 +23,15 @@ export default async function ContactoPage({
             Contacto
           </p>
           <h1 className="font-serif text-5xl md:text-6xl leading-tight max-w-xl">
-            {experiencia
-              ? 'Hablemos.'
-              : 'Si estás buscando algo más que una actividad de empresa, hablemos.'}
+            La conversación
+            <br />
+            <em>empieza aquí.</em>
           </h1>
-          {experiencia ? (
-            <p className="mt-4 text-white/50 max-w-md leading-relaxed">
-              Nos has contactado sobre{' '}
-              <span className="text-white">{experiencia}</span>.
-              Cuéntanos más sobre lo que necesitas.
-            </p>
-          ) : (
-            <p className="mt-4 text-white/50 max-w-md leading-relaxed">
-              Esta es la primera conversación de algo que puede cambiar tu forma
-              de operar. Sin formatos cerrados. Sin precios de catálogo.
-            </p>
-          )}
+          <p className="mt-6 text-white/50 max-w-md leading-relaxed">
+            {experiencia
+              ? <>Nos has contactado sobre <span className="text-white">{experiencia}</span>. Cuéntanos qué buscas lograr. Nosotros diseñamos el resto.</>
+              : 'Cuéntanos qué buscas lograr. Nosotros diseñamos el resto.'}
+          </p>
         </div>
 
         {/* Form */}
