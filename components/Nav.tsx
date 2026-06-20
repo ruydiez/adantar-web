@@ -31,6 +31,7 @@ export default function Nav({ locale: _locale }: { locale: string }) {
   function switchLocale() {
     const next = locale === 'en' ? 'es' : 'en'
     const withoutLocale = pathname.replace(/^\/(es|en)/, '') || '/'
+    document.cookie = `NEXT_LOCALE=${next};path=/;max-age=31536000`
     window.location.href = next === 'en' ? withoutLocale : `/es${withoutLocale}`
   }
 
