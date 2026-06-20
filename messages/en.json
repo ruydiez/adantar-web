@@ -1,0 +1,192 @@
+{
+  "nav": {
+    "experiences": "Experiences",
+    "about": "About AdAntar",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Transformative. Transcending.",
+    "rights": "All rights reserved.",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Transformative. Transcending.",
+      "h1_1": "What you seek",
+      "h1_2": "is within.",
+      "h1_3": "On the other side",
+      "h1_4": "of effort.",
+      "cta": "Explore experiences →"
+    },
+    "who": {
+      "eyebrow": "Who we are",
+      "h2_1": "The definitive selection",
+      "h2_2": "of mind & body",
+      "h2_3": "experiences.",
+      "p1": "Where world-class hospitality and elite training meet.",
+      "p2": "Some of us travel to discover ourselves, to transform, grow, or evolve. For all of us, there was no platform. Until now.",
+      "cta": "Read the manifesto →"
+    },
+    "products": {
+      "eyebrow": "What we do",
+      "h2_1": "Three types of experiences.",
+      "h2_2": "One single standard.",
+      "corp": {
+        "title": "Corporate",
+        "desc": "For companies that need to bring teams together, develop, or transform them in an environment that communicates without needing to explain itself. Far from the roadside hotel offsite.",
+        "items": ["— Conventions & Kick-Offs", "— Leadership Offsites", "— Workshops & Training", "— Incentives & Recognition"],
+        "cta": "Enquire →"
+      },
+      "mind": {
+        "title": "Mind & Body",
+        "desc": "Retreats where body and mind are challenged together. For those who don't understand travel without purpose. Effort is not an add-on: it's the mechanism of transformation.",
+        "items": ["— Training Camps", "— Signature Sports Challenges", "— Longevity Programmes", "— Bespoke Retreats"],
+        "cta": "View experiences →"
+      },
+      "niche": {
+        "title": "Niche",
+        "desc": "Thematic deep dives for communities with their own criteria. Small format, limited access, top-level experts. For the demanding traveller who can't put it together alone.",
+        "items": ["— Deep Dive · Diving", "— Deep Dive · Wine & Malvasía", "— Deep Dive · Astronomy", "— Bespoke Deep Dives"],
+        "cta": "Enquire →"
+      }
+    },
+    "sanity": {
+      "h2": "Available",
+      "h2_em": "experiences",
+      "viewAll": "View all →"
+    },
+    "purpose": {
+      "eyebrow": "Purpose",
+      "h2_1": "Creating the conditions",
+      "h2_2": "for people to go further",
+      "h2_3": "than they believed",
+      "h2_4": "possible.",
+      "p": "We are not the ones who transform. We create the conditions for that evolution to happen. Through transformative effort."
+    },
+    "forWhom": {
+      "eyebrow": "Who it's for",
+      "h2_1": "For those who don't want",
+      "h2_2": "to search,",
+      "h2_3": "but to find the best.",
+      "profiles": [
+        {
+          "tag": "A — B2C Core",
+          "title": "The active traveller",
+          "body": "Runs, cycles, swims or practises yoga seriously. Needs the destination to mean something. Price doesn't move them: knowing someone with real criteria was there first does. If they can find it on any search engine, it's not for them."
+        },
+        {
+          "tag": "B — B2C Community",
+          "title": "The high-level competitor",
+          "body": "Triathlete, cyclist, trail runner. Serious amateur or semi-professional. Not looking for beautiful experiences: looking for the best conditions to do what they do. What closes the deal is the credential."
+        },
+        {
+          "tag": "C — B2B Core",
+          "title": "The corporate buyer",
+          "body": "Head of Talent, L&D or Chief of Staff. Organises corporate retreats and wants to impress. Avoids the standard offsite. Rarely the beneficiary, but the one who decides, budgets and defends it internally."
+        }
+      ]
+    },
+    "cta": {
+      "h2_1": "Everything is ready.",
+      "h2_2": "The only work",
+      "h2_3": "left is to arrive.",
+      "cta": "Start a conversation →"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About AdAntar",
+      "h1_1": "This is not about",
+      "h1_2": "what you come to do.",
+      "h1_3": "But who you are",
+      "h1_4": "when you leave."
+    },
+    "name": {
+      "eyebrow": "The name",
+      "h2_1": "Ad · Antar.",
+      "h2_2": "Inward.",
+      "p1": "The union of the Latin <em>ad</em> —toward— and the Sanskrit <em>antar</em> —interior, within— means \"inward, toward the inside\".",
+      "p2": "AdAntar speaks of how in corporate, sports and spiritual retreats the best work is not done for others, to prove or compete, but for oneself: to know and improve, and to become someone more aware, more present, more connected."
+    },
+    "volcano": {
+      "eyebrow": "The origin",
+      "h2": "The volcano.",
+      "p1": "A volcano is an open wound on the back of the world. A crack through which the planet breathes, screams and remembers it is still alive.",
+      "p2": "It is the fire that did not ask permission to come out. The liquid memory of the core that rises to tell you where we come from: from heat, pressure, darkness made form.",
+      "p3": "It destroys. But it also creates. New land. Island where there was ocean. Ground where there was none.",
+      "p4": "The volcano is the reminder that the most radical transformation —the one that leaves a mark— always comes from a rupture. And that inside everything that seems solid and still, something boils."
+    },
+    "manifesto": {
+      "eyebrow": "Manifesto",
+      "p1": "Not everyone travels to rest. Some of us travel to discover ourselves. We choose the headwind, the slope that hurts, the cold that clears the mind. We don't understand leisure without purpose, or luxury without demand. We return from every journey different. Brighter, more connected, more alive — because that is exactly what we went to find. For those people, there was no place in Europe. Until now.",
+      "p2": "At AdAntar we have visited the places, trained with the best, tested what's worth it and discarded what's not. We know the unique destinations of southern Europe from the inside: their routes, their villas, their waters, their coaches. And we have built a place for all of it.",
+      "p3": "AdAntar is more than a catalogue. It is the art of selection, attention and care. Behind every experience we offer you are hundreds of hours of travel, training and conversations with the best. There is someone who knows this world from the inside and has decided it is worth it.",
+      "p4": "Finally a place in Europe at the level of your standards.",
+      "p4_em": "AdAntar. Transformative. Transcending."
+    },
+    "pillars": {
+      "eyebrow": "What we are",
+      "h2_1": "Four pillars.",
+      "h2_2": "One single promise.",
+      "items": [
+        {
+          "label": "Sports",
+          "title": "Challenge / Effort",
+          "body": "Demand is not an obstacle: it is part of the value. Without work there is no transformation. Directed effort does not exhaust — it reveals."
+        },
+        {
+          "label": "Experiences",
+          "title": "Evolution / Change",
+          "body": "Here you don't just rest. You leave as someone better. Produced by the curated experience that activates something no other environment had managed to activate."
+        },
+        {
+          "label": "Travel",
+          "title": "Curation / Selection",
+          "body": "Before you arrive, we have already been there. We have tested, discarded and chosen. At AdAntar you find so you don't have to search."
+        },
+        {
+          "label": "Hospitality",
+          "title": "Service / Care",
+          "body": "Good service doesn't impress — it anticipates. It knows what you need before you ask. The highest form of hospitality: the one that generates real loyalty."
+        }
+      ]
+    },
+    "purpose": {
+      "eyebrow": "Brand purpose",
+      "h2": "Creating the conditions for people to go further than they believed possible, through transformative effort."
+    },
+    "model": {
+      "eyebrow": "The model",
+      "h2_1": "One platform.",
+      "h2_2": "Multiple territories.",
+      "p": "AdAntar starts in Lanzarote. The founding territory and first reference standard, but built to expand to other high-level destinations in southern Europe. The brand, the criteria and the standard are our own. Territories join.",
+      "places": [
+        { "n": "01", "place": "Lanzarote", "desc": "Founding territory" },
+        { "n": "02", "place": "Southern Europe", "desc": "Tuscany · Algarve · Amalfi Coast" },
+        { "n": "03", "place": "Continental", "desc": "The best destinations under one single standard" }
+      ]
+    },
+    "cta": {
+      "h2_1": "Do you feel",
+      "h2_2": "the call?",
+      "p": "Every experience begins with a conversation.",
+      "cta": "Talk to AdAntar →"
+    }
+  },
+  "experiences": {
+    "eyebrow": "Catalogue",
+    "h1_1": "Experiences designed",
+    "h1_2": "to produce a before",
+    "h1_3": "and an after.",
+    "p": "Every experience at AdAntar is conceived alongside athletes and experts who share our level of demand. Tested, refined and ready to transform you."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "h1_1": "The conversation",
+    "h1_2": "starts here.",
+    "p": "Tell us what you want to achieve. We design the rest.",
+    "p_with_exp": "You've contacted us about {experience}. Tell us what you want to achieve. We design the rest.",
+    "direct": "Or write to us directly:"
+  }
+}

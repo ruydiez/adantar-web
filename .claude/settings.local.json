@@ -29,7 +29,13 @@
       "Bash(git commit *)",
       "Bash(git remote *)",
       "Bash(git branch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(ls /tmp/claude-*uploads* 2>/dev/null || ls ~/Downloads/ | grep -i \"paste\\\\|image\\\\|upload\" | head -10)",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Logo \\(PNG\\)/PNG/AdAntar_Logo_Blanco.png\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/logo-white.png\")",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Stock Fotográfico/marc-antoine-dube-YtOfiFbWdBQ-unsplash.jpg\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/water-manifiesto.jpg\")",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)"
     ]
   }
 }

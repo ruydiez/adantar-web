@@ -1,0 +1,192 @@
+{
+  "nav": {
+    "experiences": "Experiencias",
+    "about": "Sobre AdAntar",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "tagline": "Transformative. Transcending.",
+    "rights": "Todos los derechos reservados.",
+    "contact": "Contacto",
+    "privacy": "Privacidad"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Transformative. Transcending.",
+      "h1_1": "Lo que buscas",
+      "h1_2": "está adentro.",
+      "h1_3": "Al otro lado",
+      "h1_4": "del esfuerzo.",
+      "cta": "Explorar experiencias →"
+    },
+    "who": {
+      "eyebrow": "Quiénes somos",
+      "h2_1": "La selección definitiva",
+      "h2_2": "de experiencias",
+      "h2_3": "mind & body.",
+      "p1": "El lugar donde la hospitalidad de alto nivel y el entrenamiento de élite se encuentran.",
+      "p2": "Hay quienes viajamos para descubrirnos, para transformarnos, crecer o evolucionar. Para todos nosotros no había una plataforma. Hasta ahora.",
+      "cta": "Leer el manifiesto →"
+    },
+    "products": {
+      "eyebrow": "Lo que hacemos",
+      "h2_1": "Tres tipos de experiencias.",
+      "h2_2": "Un solo estándar.",
+      "corp": {
+        "title": "Corporativas",
+        "desc": "Para empresas que necesitan reunir, formar o transformar a sus equipos en un entorno que comunique sin tener que explicarlo. Lejos del offsite de hotel de carretera.",
+        "items": ["— Convenciones & Kick-Offs", "— Offsites de Dirección", "— Workshops & Formación", "— Incentivos & Reconocimiento"],
+        "cta": "Consultar →"
+      },
+      "mind": {
+        "title": "Mente y Cuerpo",
+        "desc": "Retiros donde el cuerpo y la mente se exigen a la vez. Para quien no entiende el viaje sin propósito. El esfuerzo no es un añadido: es el mecanismo de transformación.",
+        "items": ["— Camps de Entrenamiento", "— Retos Deportivos Firmados", "— Programas de Longevidad", "— Retiros a Medida"],
+        "cta": "Ver experiencias →"
+      },
+      "niche": {
+        "title": "Nicho",
+        "desc": "Deep dives temáticos para comunidades con criterio propio. Pequeño formato, acceso limitado, expertos de primer nivel. Para el viajero exigente que no puede armarlo solo.",
+        "items": ["— Deep Dive · Buceo", "— Deep Dive · Vino & Malvasía", "— Deep Dive · Astronomía", "— Deep Dives a Medida"],
+        "cta": "Consultar →"
+      }
+    },
+    "sanity": {
+      "h2": "Experiencias",
+      "h2_em": "disponibles",
+      "viewAll": "Ver todas →"
+    },
+    "purpose": {
+      "eyebrow": "Propósito",
+      "h2_1": "Crear las condiciones",
+      "h2_2": "para que las personas",
+      "h2_3": "puedan llegar más lejos",
+      "h2_4": "de lo que creían posible.",
+      "p": "No somos quienes transforman. Somos quienes crean las condiciones para que esa evolución ocurra. A través de un esfuerzo transformador."
+    },
+    "forWhom": {
+      "eyebrow": "Para quién",
+      "h2_1": "Para aquellos que",
+      "h2_2": "no quieren buscar,",
+      "h2_3": "sino encontrar lo mejor.",
+      "profiles": [
+        {
+          "tag": "A — B2C Principal",
+          "title": "El viajero activo",
+          "body": "Corre, pedalea, nada o hace yoga con seriedad. Necesita que el destino tenga sentido. No le mueve el precio: le mueve saber que alguien con criterio estuvo antes. Si lo puede encontrar en cualquier buscador, no le interesa."
+        },
+        {
+          "tag": "B — B2C Comunidad",
+          "title": "El competidor de alto nivel",
+          "body": "Triatleta, ciclista, trail runner. Amateur serio o semiprofesional. No busca experiencias bonitas: busca las mejores condiciones para hacer lo que hace. Lo que le cierra es la credencial."
+        },
+        {
+          "tag": "C — B2B Principal",
+          "title": "El prescriptor corporativo",
+          "body": "Director de Talento, L&D o Chief of Staff. Organiza retiros corporativos y quiere sorprender. Huye del offsite estándar. Raramente es el beneficiario, pero es quien decide, presupuesta y defiende internamente."
+        }
+      ]
+    },
+    "cta": {
+      "h2_1": "Ya todo está preparado.",
+      "h2_2": "El único trabajo",
+      "h2_3": "que te queda es llegar.",
+      "cta": "Iniciar conversación →"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Sobre AdAntar",
+      "h1_1": "Esto no se trata",
+      "h1_2": "de lo que vienes a hacer.",
+      "h1_3": "Sino de aquello que eres",
+      "h1_4": "al irte."
+    },
+    "name": {
+      "eyebrow": "El nombre",
+      "h2_1": "Ad · Antar.",
+      "h2_2": "Al interior.",
+      "p1": "La unión del latín <em>ad</em> —hacia— y el sánscrito <em>antar</em> —interior, adentro— significa «al interior, hacia adentro».",
+      "p2": "AdAntar habla de cómo en los retiros corporativos, deportivos y espirituales el mejor trabajo no se hace para los demás, para demostrar o competir, sino para uno mismo: para conocerse y mejorar, y para volverse alguien más consciente, más presente, más conectado."
+    },
+    "volcano": {
+      "eyebrow": "El origen",
+      "h2": "El volcán.",
+      "p1": "Un volcán es una herida abierta en el lomo del mundo. Una grieta por donde el planeta respira, grita y recuerda que sigue vivo.",
+      "p2": "Es el fuego que no pidió permiso para salir. La memoria líquida del núcleo que sube a contarte de dónde venimos: del calor, de la presión, de la oscuridad hecha forma.",
+      "p3": "Destruye. Pero también crea. Tierra nueva. Isla donde había océano. Suelo donde no lo había.",
+      "p4": "El volcán es el recordatorio de que la transformación más radical —esa que deja marca— nace siempre de una ruptura. Y de que dentro de todo lo que parece sólido y quieto, algo hierve."
+    },
+    "manifesto": {
+      "eyebrow": "Manifiesto",
+      "p1": "No todos viajamos para descansar. Hay personas que viajamos para descubrirnos. Que elegimos el viento en contra, la pendiente que duele, el frío que aclara. Que no entendemos el ocio sin propósito, ni el lujo sin exigencia. Que regresamos de cada viaje distintas. Más brillantes, más conectadas, más vivas, pues eso es exactamente lo que fuimos a buscar. Para esas personas no había un lugar en Europa. Hasta ahora.",
+      "p2": "En AdAntar hemos visitado los sitios, entrenado con los mejores, probado lo que vale y descartado lo que no. Conocemos los destinos únicos del sur de Europa desde adentro, sus rutas, sus villas, sus aguas, sus entrenadores. Y hemos construido un lugar para todo ello.",
+      "p3": "AdAntar es más que un catálogo. Es el arte de la selección, la atención y el cuidado. Detrás de cada experiencia que te ofrecemos hay cientos de horas de viajes, entrenamientos y conversaciones con los mejores. Hay alguien que conoce este mundo desde adentro y que ha decidido que esto vale la pena.",
+      "p4": "Por fin un lugar en Europa a la altura de tus estándares.",
+      "p4_em": "AdAntar. Transformative. Transcending."
+    },
+    "pillars": {
+      "eyebrow": "Lo que somos",
+      "h2_1": "Cuatro pilares.",
+      "h2_2": "Una sola promesa.",
+      "items": [
+        {
+          "label": "Sports",
+          "title": "Reto / Esfuerzo",
+          "body": "La exigencia no es un obstáculo: es parte del valor. Sin trabajo no hay transformación. El esfuerzo dirigido no agota, revela."
+        },
+        {
+          "label": "Experiences",
+          "title": "Evolución / Cambio",
+          "body": "Aquí no solo descansas. Sales siendo alguien mejor. Lo produce la experiencia curada que activa algo que ningún otro entorno había conseguido activar."
+        },
+        {
+          "label": "Travel",
+          "title": "Curaduría / Selección",
+          "body": "Antes de que llegues, ya hemos estado ahí. Hemos probado, descartado y elegido. En AdAntar encuentras para no tener que buscar."
+        },
+        {
+          "label": "Hospitality",
+          "title": "Servicio / Atención",
+          "body": "Un buen servicio no impresiona, anticipa. Sabe lo que necesitas antes de pedirlo. La forma más elevada de hospitalidad: la que genera fidelidad real."
+        }
+      ]
+    },
+    "purpose": {
+      "eyebrow": "Propósito de marca",
+      "h2": "Crear las condiciones para que las personas puedan llegar más lejos de lo que creían posible, a través de un esfuerzo transformador."
+    },
+    "model": {
+      "eyebrow": "El modelo",
+      "h2_1": "Una plataforma.",
+      "h2_2": "Múltiples territorios.",
+      "p": "AdAntar arranca en Lanzarote. Territorio fundacional y primer estándar de referencia, pero está construida para expandirse a otros destinos de alto nivel en el sur de Europa. La marca, el criterio y el estándar son propios. Los territorios se suman.",
+      "places": [
+        { "n": "01", "place": "Lanzarote", "desc": "Territorio fundacional" },
+        { "n": "02", "place": "Sur de Europa", "desc": "Toscana · Algarve · Costa Amalfitana" },
+        { "n": "03", "place": "Continental", "desc": "Los mejores destinos bajo un mismo criterio" }
+      ]
+    },
+    "cta": {
+      "h2_1": "¿Sientes",
+      "h2_2": "la llamada?",
+      "p": "Cada experiencia comienza con una conversación.",
+      "cta": "Hablar con AdAntar →"
+    }
+  },
+  "experiences": {
+    "eyebrow": "Catálogo",
+    "h1_1": "Experiencias diseñadas",
+    "h1_2": "para producir un antes",
+    "h1_3": "y un después.",
+    "p": "Cada experiencia en AdAntar está concebida junto a atletas y expertos que comparten nuestro nivel de exigencia. Probadas, perfeccionadas y listas para transformarte."
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "h1_1": "La conversación",
+    "h1_2": "empieza aquí.",
+    "p": "Cuéntanos qué buscas lograr. Nosotros diseñamos el resto.",
+    "p_with_exp": "Nos has contactado sobre {experience}. Cuéntanos qué buscas lograr. Nosotros diseñamos el resto.",
+    "direct": "O escríbenos directamente:"
+  }
+}
