@@ -22,8 +22,7 @@ export default async function SobreAdantarPage({
   const prefix     = locale === 'en' ? '' : `/${locale}`
 
   return (
-    <div className="pt-16 min-h-screen">
-
+    <>
       {/* ── Hero ── */}
       <section className="relative min-h-screen flex flex-col justify-end">
         <div className="absolute inset-0">
@@ -165,6 +164,6 @@ export default async function SobreAdantarPage({
         </div>
       </section>
 
-    </div>
+    </>
   )
 }
