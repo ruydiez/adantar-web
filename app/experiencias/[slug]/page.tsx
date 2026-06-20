@@ -21,10 +21,11 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   try {
-    const exp = await client.fetch(experienceBySlugQuery, { slug: params.slug })
+    const { slug } = await params
+    const exp = await client.fetch(experienceBySlugQuery, { slug })
     if (!exp) return {}
     return {
       title:       exp.title,
@@ -52,12 +53,13 @@ const portableComponents = {
 export default async function ExperiencePage({
   params,
 }: {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }) {
   let exp: any
+  const { slug } = await params
 
   try {
-    exp = await client.fetch(experienceBySlugQuery, { slug: params.slug })
+    exp = await client.fetch(experienceBySlugQuery, { slug })
   } catch {
     notFound()
   }
