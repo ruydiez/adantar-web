@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
 
 export default async function Footer({ locale }: { locale: string }) {
@@ -10,10 +11,13 @@ export default async function Footer({ locale }: { locale: string }) {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
-            <p className="font-serif text-2xl tracking-[0.18em] uppercase">AdAntar</p>
-            <p className="mt-2 text-[10px] tracking-widest uppercase text-white/30">
-              {t('tagline')}
-            </p>
+            <Image
+              src="/images/logo-white.png"
+              alt="AdAntar"
+              width={140}
+              height={32}
+              className="h-8 w-auto"
+            />
           </div>
 
           <nav className="flex flex-col md:flex-row gap-6 md:gap-10 text-[11px] tracking-widest uppercase">

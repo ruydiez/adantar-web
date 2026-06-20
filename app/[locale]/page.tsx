@@ -30,7 +30,7 @@ export default async function HomePage({
           <div className="absolute inset-0 bg-gradient-to-t from-basalto via-basalto/50 to-basalto/40" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12 pb-24">
-          <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-8">{t('hero.eyebrow')}</p>
+          <p className="text-[11px] tracking-[0.2em] uppercase text-white mb-8">{t('hero.eyebrow')}</p>
           <h1 className="font-serif text-5xl md:text-7xl lg:text-[84px] leading-[0.95] tracking-tight max-w-3xl">
             {t('hero.h1_1')}<br />{t('hero.h1_2')}<br />
             <em>{t('hero.h1_3')}<br />{t('hero.h1_4')}</em>
