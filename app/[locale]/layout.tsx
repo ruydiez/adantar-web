@@ -122,7 +122,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body className="bg-basalto text-white font-sans antialiased">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Nav locale={locale} />
           <main>{children}</main>
           <Footer locale={locale} />
