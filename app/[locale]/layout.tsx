@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Inter, Cormorant_Garamond } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -7,20 +6,6 @@ import { routing } from '@/i18n/routing'
 import '../globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
-
-const inter = Inter({
-  subsets:  ['latin'],
-  variable: '--font-sans',
-  display:  'swap',
-})
-
-const cormorant = Cormorant_Garamond({
-  subsets:  ['latin'],
-  weight:   ['300', '400', '500', '600'],
-  style:    ['normal', 'italic'],
-  variable: '--font-serif',
-  display:  'swap',
-})
 
 const baseUrl = 'https://adantar.vercel.app'
 
@@ -129,7 +114,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} className={`${inter.variable} ${cormorant.variable}`}>
+    <html lang={locale}>
       <head>
         <script
           type="application/ld+json"

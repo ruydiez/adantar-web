@@ -15,8 +15,8 @@ module.exports = {
         aire:    '#d5e0ee',
       },
       fontFamily: {
-        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        sans:  ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['PPEditorialNew', 'Georgia', 'serif'],
+        sans:  ['NeueHaasGrot', 'Helvetica Neue', 'system-ui', 'sans-serif'],
       },
     },
   },

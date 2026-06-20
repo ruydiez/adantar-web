@@ -36,7 +36,12 @@
       "Bash(npm install *)",
       "Bash(npx tsc *)",
       "Bash(npm run *)",
-      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Logo \\(PNG\\)/PNG/AdAntar_Simbolo_Blanco.png\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/logo-white.png\" && echo \"Logo copiado\")"
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Logo \\(PNG\\)/PNG/AdAntar_Simbolo_Blanco.png\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/images/logo-white.png\" && echo \"Logo copiado\")",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Fonts/PPEditorialNew-Regular.otf\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/fonts/\")",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Fonts/PPEditorialNew-Italic.otf\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/fonts/\")",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Fonts/PPEditorialNew-UltralightItalic.otf\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/fonts/\")",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Fonts/NeueHaasGrotDisp-55Roman.otf\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/fonts/\")",
+      "Bash(cp \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/04 — Identidad Visual/Fonts/NeueHaasGrotDisp-45Light.otf\" \"/Users/picnic/Desktop/ruy diez/2026/03 — AdAntar/06 — Web/public/fonts/\")"
     ]
   }
 }
