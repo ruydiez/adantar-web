@@ -4,10 +4,11 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 
-export default function Nav({ locale }: { locale: string }) {
+export default function Nav({ locale: _locale }: { locale: string }) {
   const t        = useTranslations('nav')
+  const locale   = useLocale()
   const [open, setOpen]         = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const pathname                = usePathname()
