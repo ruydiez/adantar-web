@@ -115,11 +115,11 @@ export const experienceSchema = defineType({
       subtitle: 'vertical',
       media:    'mainImage',
     },
-    prepare({ title, subtitle, media }: { title: string; subtitle: string; media: any }) {
+    prepare(selection) {
       return {
-        title,
-        subtitle: subtitle ? `↳ ${subtitle}` : 'Sin vertical',
-        media,
+        title:    selection.title,
+        subtitle: selection.subtitle ? `↳ ${selection.subtitle}` : 'Sin vertical',
+        media:    selection.media,
       }
     },
   },
