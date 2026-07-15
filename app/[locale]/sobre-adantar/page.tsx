@@ -29,7 +29,7 @@ export default async function SobreAdantarPage({
           <Image src="/images/image9.jpeg" alt="Volcanic rock — AdAntar" fill priority className="object-cover object-center" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-basalto via-basalto/60 to-basalto/20" />
         </div>
-        <div className="absolute z-10 bottom-0 left-0 right-0 max-w-7xl mx-auto w-full px-6 lg:px-12 pb-24">
+        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12 pt-40 pb-24">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-8">{t('hero.eyebrow')}</p>
           <h1 className="font-serif text-5xl md:text-7xl lg:text-[84px] leading-[0.95] max-w-4xl">
             {t('hero.h1_1')}<br />{t('hero.h1_2')}<br />
