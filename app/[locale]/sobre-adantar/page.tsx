@@ -30,7 +30,7 @@ export default async function SobreAdantarPage({
           <div className="absolute inset-0 bg-gradient-to-b from-basalto/70 via-basalto/30 to-basalto/80" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="pt-40 pb-20">
+          <div className="pt-24 pb-20">
             <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-8">{t('hero.eyebrow')}</p>
             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight max-w-4xl">
               {t('hero.h1_1')}<br />{t('hero.h1_2')}<br />

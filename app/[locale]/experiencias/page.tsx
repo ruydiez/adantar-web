@@ -37,9 +37,9 @@ export default async function ExperienciasPage({
   const { experiences, verticals } = await getData()
 
   return (
-    <div className="min-h-screen">
+    <div className="pt-16 min-h-screen">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        <div className="pt-40 pb-20 border-b border-white/10">
+        <div className="pt-24 pb-20 border-b border-white/10">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-6">{t('eyebrow')}</p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight max-w-2xl">
             {t('h1_1')}<br />
