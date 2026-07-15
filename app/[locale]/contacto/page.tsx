@@ -29,7 +29,7 @@ export default async function ContactoPage({
 
         <div className="pt-24 pb-20 border-b border-white/10">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-6">{t('eyebrow')}</p>
-          <h1 className="font-serif text-5xl md:text-6xl leading-tight max-w-xl">
+          <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight max-w-xl">
             {t('h1_1')}<br /><em>{t('h1_2')}</em>
           </h1>
           <p className="mt-6 text-white/50 max-w-md leading-relaxed">
