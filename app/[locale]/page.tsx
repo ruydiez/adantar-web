@@ -24,12 +24,12 @@ export default async function HomePage({
   return (
     <>
       {/* ── Hero ── */}
-      <section className="relative min-h-screen flex flex-col justify-end">
+      <section className="relative min-h-screen">
         <div className="absolute inset-0">
           <Image src="/images/lanzarote-03.png" alt="Group at Lanzarote volcano at sunset" fill priority className="object-cover object-center" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-basalto via-basalto/50 to-basalto/40" />
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12 pb-24">
+        <div className="absolute z-10 bottom-0 left-0 right-0 max-w-7xl mx-auto w-full px-6 lg:px-12 pb-24">
           <p className="text-[11px] tracking-[0.2em] uppercase text-white mb-8">{t('hero.eyebrow')}</p>
           <h1 className="font-serif text-5xl md:text-7xl lg:text-[84px] leading-[0.95] tracking-tight max-w-3xl">
             {t('hero.h1_1')}<br />{t('hero.h1_2')}<br />
