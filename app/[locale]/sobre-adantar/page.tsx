@@ -24,17 +24,19 @@ export default async function SobreAdantarPage({
   return (
     <>
       {/* ── Hero ── */}
-      <section className="relative min-h-screen">
+      <section className="relative min-h-[75vh]">
         <div className="absolute inset-0">
           <Image src="/images/image9.jpeg" alt="Volcanic rock — AdAntar" fill priority className="object-cover object-center" sizes="100vw" />
-          <div className="absolute inset-0 bg-gradient-to-t from-basalto via-basalto/60 to-basalto/20" />
+          <div className="absolute inset-0 bg-gradient-to-b from-basalto/70 via-basalto/30 to-basalto/80" />
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12 pt-40 pb-24">
+        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-12 pt-16 pb-0">
+          <div className="pt-24 pb-20 border-b border-white/10">
           <p className="text-[10px] tracking-[0.2em] uppercase text-arena mb-8">{t('hero.eyebrow')}</p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight max-w-4xl">
             {t('hero.h1_1')}<br />{t('hero.h1_2')}<br />
             <em>{t('hero.h1_3')}<br />{t('hero.h1_4')}</em>
           </h1>
+          </div>
         </div>
       </section>
 
