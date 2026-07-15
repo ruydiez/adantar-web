@@ -29,26 +29,41 @@
       "cta": "Read the manifesto →"
     },
     "products": {
-      "eyebrow": "What we do",
-      "h2_1": "Three types of experiences.",
-      "h2_2": "One single standard.",
+      "eyebrow": "What we are",
+      "h2_1": "Three pillars.",
+      "h2_2": "One single promise.",
       "corp": {
-        "title": "Corporate",
-        "desc": "For companies that need to bring teams together, develop, or transform them in an environment that communicates without needing to explain itself. Far from the roadside hotel offsite.",
-        "items": ["— Conventions & Kick-Offs", "— Leadership Offsites", "— Workshops & Training", "— Incentives & Recognition"],
-        "cta": "Enquire →"
+        "title": "AdAntar Perform",
+        "desc": "For organisations that understand the future of performance lies in people. Transformative experiences that use physical and mental output as a strategic lever.",
+        "items": [
+          "— Executive Offsites",
+          "— Incentive Getaways",
+          "— Conventions",
+          "— Leadership Programmes"
+        ],
+        "cta": "Get in touch →"
       },
       "mind": {
-        "title": "Mind & Body",
-        "desc": "Retreats where body and mind are challenged together. For those who don't understand travel without purpose. Effort is not an add-on: it's the mechanism of transformation.",
-        "items": ["— Training Camps", "— Signature Sports Challenges", "— Longevity Programmes", "— Bespoke Retreats"],
-        "cta": "View experiences →"
+        "title": "AdAntar Inside",
+        "desc": "Dedicated to the deep transformation of companies and destinations. We bring our methodology directly into organisations so that change becomes permanent.",
+        "items": [
+          "— Specialised Consultancy",
+          "— Hotel Development",
+          "— Corporate Wellbeing",
+          "— Evolutionary Measurement Programmes"
+        ],
+        "cta": "Get in touch →"
       },
       "niche": {
-        "title": "Niche",
-        "desc": "Thematic deep dives for communities with their own criteria. Small format, limited access, top-level experts. For the demanding traveller who can't put it together alone.",
-        "items": ["— Deep Dive · Diving", "— Deep Dive · Wine & Malvasía", "— Deep Dive · Astronomy", "— Bespoke Deep Dives"],
-        "cta": "Enquire →"
+        "title": "AdAntar Bespoke",
+        "desc": "Places the individual at the centre of a deep personal evolution. Not a travel catalogue — a proposition where the goal is not the activity but the transformation.",
+        "items": [
+          "— Transformational Retreats",
+          "— Signature Sports Challenges",
+          "— Mind & Body Programmes",
+          "— Niche Retreats: astronomy, diving, photography, longevity"
+        ],
+        "cta": "Get in touch →"
       }
     },
     "sanity": {
@@ -162,9 +177,21 @@
       "h2_2": "Multiple territories.",
       "p": "AdAntar starts in Lanzarote. The founding territory and first reference standard, but built to expand to other high-level destinations in southern Europe. The brand, the criteria and the standard are our own. Territories join.",
       "places": [
-        { "n": "01", "place": "Lanzarote", "desc": "Founding territory" },
-        { "n": "02", "place": "Southern Europe", "desc": "Tuscany · Algarve · Amalfi Coast" },
-        { "n": "03", "place": "Continental", "desc": "The best destinations under one single standard" }
+        {
+          "n": "01",
+          "place": "Lanzarote",
+          "desc": "Founding territory"
+        },
+        {
+          "n": "02",
+          "place": "Southern Europe",
+          "desc": "Tuscany · Algarve · Amalfi Coast"
+        },
+        {
+          "n": "03",
+          "place": "Continental",
+          "desc": "The best destinations under one single standard"
+        }
       ]
     },
     "cta": {

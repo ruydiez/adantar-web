@@ -29,25 +29,40 @@
       "cta": "Leer el manifiesto →"
     },
     "products": {
-      "eyebrow": "Lo que hacemos",
-      "h2_1": "Tres tipos de experiencias.",
-      "h2_2": "Un solo estándar.",
+      "eyebrow": "Lo que somos",
+      "h2_1": "Tres pilares.",
+      "h2_2": "Una sola promesa.",
       "corp": {
-        "title": "Corporativas",
-        "desc": "Para empresas que necesitan reunir, formar o transformar a sus equipos en un entorno que comunique sin tener que explicarlo. Lejos del offsite de hotel de carretera.",
-        "items": ["— Convenciones & Kick-Offs", "— Offsites de Dirección", "— Workshops & Formación", "— Incentivos & Reconocimiento"],
+        "title": "AdAntar Perform",
+        "desc": "Para organizaciones que entienden que el futuro del rendimiento reside en las personas. Experiencias transformadoras que usan el desempeño físico y mental como palanca estratégica.",
+        "items": [
+          "— Executive Offsites",
+          "— Incentive Getaways",
+          "— Convenciones",
+          "— Leadership Programmes"
+        ],
         "cta": "Consultar →"
       },
       "mind": {
-        "title": "Mente y Cuerpo",
-        "desc": "Retiros donde el cuerpo y la mente se exigen a la vez. Para quien no entiende el viaje sin propósito. El esfuerzo no es un añadido: es el mecanismo de transformación.",
-        "items": ["— Camps de Entrenamiento", "— Retos Deportivos Firmados", "— Programas de Longevidad", "— Retiros a Medida"],
-        "cta": "Ver experiencias →"
+        "title": "AdAntar Inside",
+        "desc": "Dedicado a la transformación profunda de empresas y destinos. Llevamos nuestra metodología directamente al interior de las organizaciones para que el cambio sea permanente.",
+        "items": [
+          "— Consultoría especializada",
+          "— Hotel Development",
+          "— Corporate Wellbeing",
+          "— Programas de Medición evolutivos"
+        ],
+        "cta": "Consultar →"
       },
       "niche": {
-        "title": "Nicho",
-        "desc": "Deep dives temáticos para comunidades con criterio propio. Pequeño formato, acceso limitado, expertos de primer nivel. Para el viajero exigente que no puede armarlo solo.",
-        "items": ["— Deep Dive · Buceo", "— Deep Dive · Vino & Malvasía", "— Deep Dive · Astronomía", "— Deep Dives a Medida"],
+        "title": "AdAntar Bespoke",
+        "desc": "Sitúa a la persona en el centro de un proceso de evolución individual profunda. No es un catálogo de viajes: es una propuesta donde el objetivo no es la actividad sino la evolución.",
+        "items": [
+          "— Retiros Transformacionales",
+          "— Desafíos Deportivos Signature",
+          "— Programas Mind & Body",
+          "— Niche Retreats: astronomía, buceo, fotografía, longevidad"
+        ],
         "cta": "Consultar →"
       }
     },
@@ -162,9 +177,21 @@
       "h2_2": "Múltiples territorios.",
       "p": "AdAntar arranca en Lanzarote. Territorio fundacional y primer estándar de referencia, pero está construida para expandirse a otros destinos de alto nivel en el sur de Europa. La marca, el criterio y el estándar son propios. Los territorios se suman.",
       "places": [
-        { "n": "01", "place": "Lanzarote", "desc": "Territorio fundacional" },
-        { "n": "02", "place": "Sur de Europa", "desc": "Toscana · Algarve · Costa Amalfitana" },
-        { "n": "03", "place": "Continental", "desc": "Los mejores destinos bajo un mismo criterio" }
+        {
+          "n": "01",
+          "place": "Lanzarote",
+          "desc": "Territorio fundacional"
+        },
+        {
+          "n": "02",
+          "place": "Sur de Europa",
+          "desc": "Toscana · Algarve · Costa Amalfitana"
+        },
+        {
+          "n": "03",
+          "place": "Continental",
+          "desc": "Los mejores destinos bajo un mismo criterio"
+        }
       ]
     },
     "cta": {
